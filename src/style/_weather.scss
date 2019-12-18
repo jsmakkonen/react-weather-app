@@ -1,0 +1,31 @@
+$textcolor: #08302F;
+$linecolor: #f16051;
+
+.weather-info {
+    width: 60%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+  
+  .weather-text {
+    color: $textcolor;
+    border-bottom: solid 2px rgba(255,255,255,0.06);
+    padding: 10px 0 10px 0;
+    font-weight: 400;
+    :last-child {
+        border: 0
+    }
+  }
+  
+  .weather-value {
+    color: #fff;
+    font-weight: 200;
+  }
+  
+  .weather-error {
+    color: $linecolor;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }

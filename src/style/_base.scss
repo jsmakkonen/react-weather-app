@@ -1,0 +1,45 @@
+$bgcolor: #FCFDF8;
+$buttoncolor: #08302F;
+$inputcolor: #F16051;
+
+body {
+    background-color: $bgcolor;
+    font-family: $font-family;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.btn-1 {
+    background-color: $buttoncolor;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+.input-city {
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    border: 0;
+    border-bottom: solid 1px $inputcolor;
+    width: 30%;
+    padding-bottom: 4px;
+    color: #000000;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  input[type="text"] { 
+      outline: none;
+  }
