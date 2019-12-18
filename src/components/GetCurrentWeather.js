@@ -3,8 +3,6 @@ import WeatherForm from './WeatherForm';
 import Weather from './Weather';
 import API_KEY from '../apiConfig';
 
-//const API_KEY = '623e32d1bbb7818c60271b3940e7a209';
-
 class GetCurrentWeather extends Component {
     state = {
         temperature: undefined,
